@@ -17,7 +17,7 @@ import { BotIcon, ListStartIcon, StarIcon, VideoIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { DashboardUserButton } from "./ui/components/dashboard-user-button";
+import { DashboardUserButton } from "./dashboard-user-button";
 
 const firstSection = [
     {
