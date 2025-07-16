@@ -51,6 +51,7 @@ export const AgentIdViewHeader = ({
                     </BreadcrumbItem>
                 </BreadcrumbList>
             </Breadcrumb>
+            {/* Without modsal={false}, the dialgo that this dropdown opens cause the website to get unclickable */}
             <DropdownMenu modal={false}>
                 <DropdownMenuTrigger asChild>
                     <Button variant="ghost">
