@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ErrorState } from "@/components/error-state";
 import { LoadingState } from "@/components/loading-state";
@@ -12,7 +12,7 @@ export const MeetingsView = () => {
 
     return ( 
         <div>
-            {JSON.stringify(data)}
+            TODO: Data Table
         </div>
      );
 };
